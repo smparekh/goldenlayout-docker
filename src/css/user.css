@@ -1,0 +1,47 @@
+.userlist *,
+.userdetails{
+    color: #fff;
+    font: 12px Arial, sans-serif;
+}
+.userlist{
+    margin: 0;
+    padding: 0;
+}
+template{
+  display:none;
+}
+.userlist li{
+    padding: 10px;
+    border-bottom: 1px solid #555;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.userlist li:hover{
+    background: #666;
+}
+
+.userlist li.selected{
+    background: orange;
+    font-weight: bold;
+}
+.userdetails *{
+  color: #fff;
+}
+
+.userdetails{
+    padding: 10px;
+}
+
+.userdetails img{
+    float: left;
+    margin-right: 10px;
+}
+
+.userdetails h2{
+    margin-top: 0;
+}
+
+body .lm_content{
+    overflow: auto;
+}
